@@ -22,6 +22,9 @@ bluetooth.profile.sap.server.enabled=true
 # DPM
 persist.vendor.dpm.feature=11
 
+# FUSE
+persist.sys.fuse.passthrough.enable=true
+
 # GPS
 persist.sys.gps.fence=true
 persist.sys.gps.polaris=true
