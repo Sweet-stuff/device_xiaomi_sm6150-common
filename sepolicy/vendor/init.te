@@ -17,3 +17,6 @@ allow init hal_fingerprint_default:process { ptrace };
 allow init hwservicemanager:binder { call  transfer };
 
 allow init init:capability { sys_nice };
+
+# Allow init to bind mount vendor configs file
+allow init vendor_configs_file:file mounton;
