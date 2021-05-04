@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2018-2020 The LineageOS Project
 #
@@ -21,6 +22,9 @@ TARGET_ENABLE_BLUR := true
 
 # Camera
 #$(call inherit-product-if-exists, vendor/miuicamera/config.mk)
+
+# DebugFS
+PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
