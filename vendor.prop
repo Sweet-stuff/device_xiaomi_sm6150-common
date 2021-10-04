@@ -235,3 +235,6 @@ persist.dbg.wfc_avail_ovr=1
 
 # WiFi
 wifi.aware.interface=wifi-aware0
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
