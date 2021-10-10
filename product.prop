@@ -92,3 +92,6 @@ MultitouchSettleInterval=1ms
 MultitouchMinDistance=1px
 TapInterval=1ms
 TapSlop=1px
+
+# One handed mode
+ro.support_one_handed_mode=true
