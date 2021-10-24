@@ -10,3 +10,5 @@ allow vendor_thermal-engine vendor_sysfs_devfreq:file rw_file_perms;
 unix_socket_connect(vendor_thermal-engine, property, init);
 
 set_prop(vendor_thermal-engine, vendor_thermal_normal_prop)
+
+allow vendor_thermal-engine vendor_data_file:dir { read };
