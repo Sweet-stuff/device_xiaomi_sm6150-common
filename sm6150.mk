@@ -185,11 +185,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi_sm6150
 
-# FM
+# Remove unwanted packages
 PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
+    RemovePackages
 
 # Framework detect
 PRODUCT_PACKAGES += \
