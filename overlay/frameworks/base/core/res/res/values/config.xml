@@ -525,4 +525,8 @@
      sending a request to enable or disable the camera while the video session is also
      paused. -->
     <bool name="config_useVideoPauseWorkaround">true</bool>
+
+    <!-- Path to fast charging status file to detect whether an OEM fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/oplus_chg/battery/fast_charge</string>
+</resources>
 </resources>
